@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(229, 230, 236);
+    font-weight: bold;
+    font-size: larger;
+}
+
+h1{
+    color: black;
+}
+.heading{ 
+    color: rgb(29, 16, 212);
+
+}
+#menu{ background-color: rgb(2, 2, 20);
+    width: auto;
+    
+    color: azure;
+    padding: 10px 50px;
+    text-align: right;
+    border-radius: 15px;
+}
+#menu a{
+    background-color: rgba(0, 0, 5, 0.712);
+    color: aliceblue;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 2px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#menu a:hover{
+    background-color: rgb(49, 49, 211);
+}
+#hero{
+    background-color: rgb(2, 2, 2);
+    height: 400px;
+    width: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 100px;
+}
+#hero h1{
+    color: aliceblue;
+    font-size: 60px;
+}
+#hero p{
+    color: aliceblue;
+    font-size: 30px;
+}
+#hero a{
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 50px;
+}
+#hero a:hover{
+    background-color: rgb(69, 69, 255);
+}
+#courses{
+    margin-top: 20px;
+    text-align: center;
+
+}
+#courses h1{
+    font-size: 3rem;
+margin-bottom: 15px;
+}
+#courses img{
+    height: 200px;
+    margin: 0px 2px;
+    border-radius: 5px;
+    
+}
